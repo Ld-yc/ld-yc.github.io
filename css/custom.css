@@ -1,0 +1,28 @@
+/* 首页文章卡片透明度 */
+#recent-posts>.recent-post-item {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    /* 圆角优化 */
+}
+
+/* 侧边栏透明度 */
+.card-widget {
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 15px;
+}
+
+/* 文章详情页透明度 */
+#post {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+/* 页脚透明 */
+#footer {
+    background: transparent !important;
+}
+
+/* 顶部导航栏透明 */
+#page-header.not-top-img #nav {
+    background: rgba(255, 255, 255, 0.8);
+}
